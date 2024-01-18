@@ -1,38 +1,329 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*
+  *
+    Section 1
+  *
+*/
+.section1{
+  height: 72em;
+  background: #1A3962;
+  margin-top: -7em;
+}
+.section1 .hero-section{
+  background-image: url(./images/home/Hero_section.png);
+  background-repeat: no-repeat;
+  background-position: contain;
+  height: 100%;
+  width: 100%;
+}
+.section1 .hero-section .inner-hero{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 69em;
+  /* background: #000;
+  opacity: 50%; */
+}
+.section1 .hero-section .inner-hero .sub-hero{
+  height: inherit;
+  gap: 40px;
+}
+.section1 .hero-section .inner-hero .sub-hero .hero-text-holder{
+  position: relative;
+  top: 35vh;
+  bottom: 0;
+  height: fit-content;
+  /* border: 1px solid #000; */
+  width: 600px !important;
+  padding-right: 25px;
+  margin: 17em -150px 0px 0px !important;
+}
+.section1 .hero-section .inner-hero .sub-hero .hero-text-holder .title h3{
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 700;
+  line-height: 1.3;
+  font-size: 42px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+.section1 .hero-section .inner-hero .sub-hero .hero-text-holder .paragraph p{
+  font-family: 'Public Sans', sans-serif;
+  line-height: 1.5;
+  font-size: 21px;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+.section1 .hero-section .inner-hero .sub-hero .hero-text-holder .button button{
+  padding: 20px 64px 20px 64px;
+  background-color: #F48C06;
+  font-family: 'Public Sans', sans-serif;
+  border: none;
+  border-radius: 12px;
+  font-size: 24px;
+  font-weight: 600;
+}
+.section1 .hero-section .inner-hero .sub-hero div .uni{
+  height: 950px;
+  width: 490px;
+  margin-top: 9em;
+  margin-left: 10.8em;
+}
+.section1 .hero-section .inner-hero .inner-hero-border{
+  position: relative;
+  width: 100%;
+  height: 30px;
+  top: -15px;
+  bottom: 0;
+}
+.section1 .hero-section .inner-hero .inner-hero-border .sub-border{
+  background: #2F327D;
+  width: inherit;
+  height: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/*
+  *
+    Section 2
+  *
+*/
+.section2{
+  background-color: #FFFAF3;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.section2 .inner-section .inner-hero-border{
+  width: 100%;
+  height: 40px;
+}
+.section2 .inner-section .inner-hero-border .sub-border{
+  background: #F3AC50;
+  width: inherit;
+  height: 40px;
+}
+.section2 .inner-section .d-flex{
   align-items: center;
+}
+.section2 .inner-section div .title{
+  width: 870px;
+}
+.section2 .inner-section div .title .inner-title h2{
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 700;
+  font-size: 37px;
+  letter-spacing: 1px;
+  color: #2F327D;
+}
+.section2 .inner-section div .title .paragraph{
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+  color: #696984;
+  letter-spacing: 1px;
+  line-height: 2;
+}
+.section2 .inner-section div .card-section{
+  margin: 4em 0px;
+}
+.section2 .inner-section div .card-section .inner-card-section .top-cards .card1{
+  height: 340px;
+  background: #FFFFFF !important;
+  border: 1px;
+}
+.section2 .inner-section div .card-section .inner-card-section .top-cards .card1 .inner-card1 .card1-logo{
+  background: #2F327D;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+.section2 .inner-section div .card-section .inner-card-section .top-cards .card1 .inner-card1 .card1-heading h4{
+  font-size: 24px;
+  color: #292fd6;
+}
+.section2 .inner-section div .card-section .inner-card-section .top-cards .card1 .inner-card1 .card1-paragraph p{
+  font-size: 17px;
+  line-height: 1.7;
+  letter-spacing: 0.4px;
+  color: #696984;
+}
+.section2 .inner-section div .card-section .inner-card-section .top-cards .card1 .inner-card1 .card1-link a{
+  text-decoration: none;
+  font-size: 17px;
+}
+.section2 .inner-section div .card-section .inner-card-section .top-cards .card2{
+  height: 340px;
+  background: #FFFFFF !important;
+  border: 1px;
+}
+.section2 .inner-section div .card-section .inner-card-section .top-cards .card2 .inner-card2 .card2-logo{
+  background: #F48C06;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+.section2 .inner-section div .card-section .inner-card-section .top-cards .card2 .inner-card2 .card2-heading h4{
+  font-size: 24px;
+  color: #292fd6;
+}
+.section2 .inner-section div .card-section .inner-card-section .top-cards .card2 .inner-card2 .card2-paragraph p{
+  font-size: 17px;
+  line-height: 1.7;
+  letter-spacing: 0.4px;
+  color: #696984;
+}
+.section2 .inner-section div .card-section .inner-card-section .top-cards .card2 .inner-card2 .card2-link a{
+  text-decoration: none;
+  font-size: 17px;
+}
+.section2 .inner-section div .card-section .inner-card-section .top-cards .card3{
+  height: 400px;
+  background: #FFFFFF;
+  border: 1px;
+}
+.section2 .inner-section div .card-section .inner-card-section .top-cards .card3 .inner-card3 .card3-logo{
+  background: #198eee;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+.section2 .inner-section div .card-section .inner-card-section .top-cards .card3 .inner-card3 .card3-heading h4{
+  font-size: 24px;
+  color: #292fd6;
+}
+.section2 .inner-section div .card-section .inner-card-section .top-cards .card3 .inner-card3 .card3-paragraph p{
+  font-size: 17px;
+  line-height: 1.7;
+  letter-spacing: 0.4px;
+  color: #696984;
+}
+.section2 .inner-section div .card-section .inner-card-section .top-cards .card3 .inner-card3 .card3-link a{
+  text-decoration: none;
+  font-size: 17px;
+}
+.section2 .inner-section div .card-section .inner-card-section .bottom-cards .card4{
+  height: 400px;
+  background: #FFFFFF !important;
+  border: 1px;
+}
+.section2 .inner-section div .card-section .inner-card-section .bottom-cards .card4 .inner-card4 .card4-logo{
+  background: #2F327D;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+.section2 .inner-section div .card-section .inner-card-section .bottom-cards .card4 .inner-card4 .card4-heading h4{
+  font-size: 24px;
+  color: #292fd6;
+}
+.section2 .inner-section div .card-section .inner-card-section .bottom-cards .card4 .inner-card4 .card4-paragraph p{
+  font-size: 17px;
+  line-height: 1.7;
+  letter-spacing: 0.4px;
+  color: #696984;
+}
+.section2 .inner-section div .card-section .inner-card-section .bottom-cards .card4 .inner-card4 .card4-link a{
+  text-decoration: none;
+  font-size: 17px;
+}
+.section2 .inner-section div .card-section .inner-card-section .bottom-cards .card5{
+  height: 400px;
+  background: #FFFFFF !important;
+  border: 1px;
+}
+.section2 .inner-section div .card-section .inner-card-section .bottom-cards .card5 .inner-card5 .card5-logo{
+  background: #F48C06;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+.section2 .inner-section div .card-section .inner-card-section .bottom-cards .card5 .inner-card5 .card5-heading h4{
+  font-size: 24px;
+  color: #292fd6;
+}
+.section2 .inner-section div .card-section .inner-card-section .bottom-cards .card5 .inner-card5 .card5-paragraph p{
+  font-size: 17px;
+  line-height: 1.7;
+  letter-spacing: 0.4px;
+  color: #696984;
+}
+.section2 .inner-section div .card-section .inner-card-section .bottom-cards .card5 .inner-card5 .card5-link a{
+  text-decoration: none;
+  font-size: 17px;
+}
+.section2 .inner-section div .card-section .inner-card-section .bottom-cards .card6{
+  height: 400px;
+  background: #FFFFFF !important;
+  border: 1px;
+}
+.section2 .inner-section div .card-section .inner-card-section .bottom-cards .card6 .inner-card6 .card6-logo{
+  background: #198eee;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+.section2 .inner-section div .card-section .inner-card-section .bottom-cards .card6 .inner-card6 .card6-heading h4{
+  font-size: 24px;
+  color: #292fd6;
+}
+.section2 .inner-section div .card-section .inner-card-section .bottom-cards .card6 .inner-card6 .card6-paragraph p{
+  font-size: 17px;
+  line-height: 1.7;
+  letter-spacing: 0.4px;
+  color: #696984;
+}
+.section2 .inner-section div .card-section .inner-card-section .bottom-cards .card6 .inner-card6 .card6-link a{
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/*
+  *
+    Section 3
+  *
+*/
+.section3 .tour-section{
+  overflow: hidden;
+  height: 33em;
+  background: #FFFFFF;
+  width: 100%;
+}
+.section3 .tour-section .circle-div{
+  width: inherit;
+  height: inherit;
+}
+.section3 .tour-section .circle-div .first-circle{
+  background: #F48C06;
+  height: 12em;
+  width: 12em;
+  opacity: 20%;
+  border-radius: 50%;
+  margin: 22em 0 -5em -2em;
+}
+.section3 .tour-section .circle-div .second-circle{
+  background: #F48C06;
+  height: 12em;
+  width: 12em;
+  opacity: 20%;
+  border-radius: 50%;
+  margin: 2em -5em 0 0;
+}
+.section3 .tour-section .text-div{
+  position: relative;
+  height: 35em;
+  width: 100%;
+  top: -35em;
+  z-index: 12;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  /* opacity: 80%;
+  background: #000000; */
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.section3 .tour-section .text-div .video-section{
+  width: 40%;
+  height: 30vh;
+  background: #000;
 }
