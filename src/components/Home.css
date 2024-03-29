@@ -1,0 +1,768 @@
+
+/*
+  *
+    Section 1
+  *
+*/
+.section1{
+  height: 72em;
+  background: #1A3962;
+  margin-top: -7em;
+}
+.section1 .hero-section{
+  background-image: url(../images/home/Hero_section.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #1A3962;
+  height: 100%;
+  width: 100%;
+}
+.section1 .hero-section .inner-hero{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 69em;
+}
+.section1 .hero-section .inner-hero .sub-hero{
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%);
+  height: inherit;
+  gap: 40px;
+}
+.section1 .hero-section .inner-hero .sub-hero .hero-text-holder{
+  position: relative;
+  top: 35vh;
+  bottom: 0;
+  height: fit-content;
+  width: 600px !important;
+  padding-right: 25px;
+  margin: 17em -150px 0px 0px !important;
+  z-index: 5;
+}
+.section1 .hero-section .inner-hero .sub-hero .hero-text-holder .title h3{
+  font-weight: 700;
+  line-height: 1.3;
+  font-size: 42px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  color: white;
+}
+.section1 .hero-section .inner-hero .sub-hero .hero-text-holder .paragraph p{
+  line-height: 1.5;
+  font-size: 21px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  color: white;
+}
+.section1 .hero-section .inner-hero .sub-hero .hero-text-holder .button .button-text{
+  padding: 20px 64px 20px 64px;
+  background-color: #F48C06;
+  border: none;
+  border-radius: 12px;
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+}
+.section1 .hero-section .inner-hero .sub-hero div .uni{
+  height: 950px;
+  width: 550px;
+  margin-top: 9em;
+  margin-left: 10.8em;
+  /* box-shadow: 0px 4px 100px 0px rgba(36, 35, 34, 0.62); */
+}
+.section1 .hero-section .inner-hero .inner-hero-border{
+  position: relative;
+  width: 100%;
+  height: 30px;
+  top: -30px;
+  bottom: 0;
+}
+.section1 .hero-section .inner-hero .inner-hero-border .sub-border{
+  background: #2F327D;
+  width: inherit;
+  height: 38px;
+}
+
+/*
+  *
+    Section 2
+  *
+*/
+.section2{
+  background: transparent;
+}
+.section2 .inner-section .inner-hero-border{
+  width: 100%;
+  height: 40px;
+}
+.section2 .inner-section .inner-hero-border .sub-border{
+  background: #F3AC50;
+  width: inherit;
+  height: 40px;
+}
+.section2 .inner-section .d-flex{
+  align-items: center;
+}
+.section2 .inner-section div .title{
+  width: 100%;
+}
+.section2 .inner-section div .title .inner-title h2{
+  font-weight: 700;
+  font-size: 48px;
+  letter-spacing: 1px;
+  color: #2F327D;
+  line-height: 2;
+}
+.section2 .inner-section div .title .paragraph{
+  font-weight: 400;
+  font-size: 24px;
+  color: #696984;
+  letter-spacing: 1px;
+  line-height: 2;
+}
+.section2 .inner-section div .card-section{
+  margin: 4em 0px;
+}
+.section2 .inner-section div .card-section .inner-card-section .top-cards .card1{
+  height: 340px;
+  background: #FFFFFF !important;
+  border: 1px;
+}
+.section2 .inner-section div .card-section .inner-card-section .top-cards .card1 .inner-card1 .card1-logo{
+  background: #5B72EE;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+.section2 .inner-section div .card-section .inner-card-section .top-cards .card1 .inner-card1 .card1-heading h4{
+  font-size: 24px;
+  color: #292fd6;
+}
+.section2 .inner-section div .card-section .inner-card-section .top-cards .card1 .inner-card1 .card1-paragraph p{
+  font-size: 17px;
+  line-height: 1.7;
+  letter-spacing: 0.4px;
+  color: #696984;
+}
+.section2 .inner-section div .card-section .inner-card-section .top-cards .card1 .inner-card1 .card1-link a{
+  text-decoration: none;
+  font-size: 17px;
+}
+.section2 .inner-section div .card-section .inner-card-section .top-cards .card2{
+  height: 340px;
+  background: #FFFFFF !important;
+  border: 1px;
+}
+.section2 .inner-section div .card-section .inner-card-section .top-cards .card2 .inner-card2 .card2-logo{
+  background: #F48C06;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+.section2 .inner-section div .card-section .inner-card-section .top-cards .card2 .inner-card2 .card2-heading h4{
+  font-size: 24px;
+  color: #292fd6;
+}
+.section2 .inner-section div .card-section .inner-card-section .top-cards .card2 .inner-card2 .card2-paragraph p{
+  font-size: 17px;
+  line-height: 1.7;
+  letter-spacing: 0.4px;
+  color: #696984;
+}
+.section2 .inner-section div .card-section .inner-card-section .top-cards .card2 .inner-card2 .card2-link a{
+  text-decoration: none;
+  font-size: 17px;
+}
+.section2 .inner-section div .card-section .inner-card-section .top-cards .card3{
+  height: 400px;
+  background: #FFFFFF;
+  border: 1px;
+}
+.section2 .inner-section div .card-section .inner-card-section .top-cards .card3 .inner-card3 .card3-logo{
+  background: #29B9E7;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+.section2 .inner-section div .card-section .inner-card-section .top-cards .card3 .inner-card3 .card3-heading h4{
+  font-size: 24px;
+  color: #292fd6;
+}
+.section2 .inner-section div .card-section .inner-card-section .top-cards .card3 .inner-card3 .card3-paragraph p{
+  font-size: 17px;
+  line-height: 1.7;
+  letter-spacing: 0.4px;
+  color: #696984;
+}
+.section2 .inner-section div .card-section .inner-card-section .top-cards .card3 .inner-card3 .card3-link a{
+  text-decoration: none;
+  font-size: 17px;
+}
+.section2 .inner-section div .card-section .inner-card-section .bottom-cards .card4{
+  height: 400px;
+  background: #FFFFFF !important;
+  border: 1px;
+}
+.section2 .inner-section div .card-section .inner-card-section .bottom-cards .card4 .inner-card4 .card4-logo{
+  background: #5B72EE;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+.section2 .inner-section div .card-section .inner-card-section .bottom-cards .card4 .inner-card4 .card4-heading h4{
+  font-size: 24px;
+  color: #292fd6;
+}
+.section2 .inner-section div .card-section .inner-card-section .bottom-cards .card4 .inner-card4 .card4-paragraph p{
+  font-size: 17px;
+  line-height: 1.7;
+  letter-spacing: 0.4px;
+  color: #696984;
+}
+.section2 .inner-section div .card-section .inner-card-section .bottom-cards .card4 .inner-card4 .card4-link a{
+  text-decoration: none;
+  font-size: 17px;
+}
+.section2 .inner-section div .card-section .inner-card-section .bottom-cards .card5{
+  height: 400px;
+  background: #FFFFFF !important;
+  border: 1px;
+}
+.section2 .inner-section div .card-section .inner-card-section .bottom-cards .card5 .inner-card5 .card5-logo{
+  background: #F48C06;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+.section2 .inner-section div .card-section .inner-card-section .bottom-cards .card5 .inner-card5 .card5-heading h4{
+  font-size: 24px;
+  color: #292fd6;
+}
+.section2 .inner-section div .card-section .inner-card-section .bottom-cards .card5 .inner-card5 .card5-paragraph p{
+  font-size: 17px;
+  line-height: 1.7;
+  letter-spacing: 0.4px;
+  color: #696984;
+}
+.section2 .inner-section div .card-section .inner-card-section .bottom-cards .card5 .inner-card5 .card5-link a{
+  text-decoration: none;
+  font-size: 17px;
+}
+.section2 .inner-section div .card-section .inner-card-section .bottom-cards .card6{
+  height: 400px;
+  background: #FFFFFF !important;
+  border: 1px;
+}
+.section2 .inner-section div .card-section .inner-card-section .bottom-cards .card6 .inner-card6 .card6-logo{
+  background: #29B9E7;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+.section2 .inner-section div .card-section .inner-card-section .bottom-cards .card6 .inner-card6 .card6-heading h4{
+  font-size: 24px;
+  color: #292fd6;
+}
+.section2 .inner-section div .card-section .inner-card-section .bottom-cards .card6 .inner-card6 .card6-paragraph p{
+  font-size: 17px;
+  line-height: 1.7;
+  letter-spacing: 0.4px;
+  color: #696984;
+}
+.section2 .inner-section div .card-section .inner-card-section .bottom-cards .card6 .inner-card6 .card6-link a{
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/*
+  *
+    Section 3
+  *
+*/
+.section3 .tour-section{
+  overflow: hidden;
+  height: 40em;
+  background: #FFFFFF;
+  width: 100%;
+}
+.section3 .tour-section .circle-div{
+  width: inherit;
+  height: inherit;
+}
+.section3 .tour-section .circle-div .first-circle{
+  background: #F48C06;
+  height: 12em;
+  width: 12em;
+  opacity: 20%;
+  border-radius: 50%;
+  margin: 29em 0 -7em -2em;
+}
+.section3 .tour-section .circle-div .second-circle{
+  background: #F48C06;
+  height: 12em;
+  width: 12em;
+  opacity: 20%;
+  border-radius: 50%;
+  margin: 2em -5em 0 0;
+}
+.section3 .tour-section .text-div{
+  position: relative;
+  height: 42em;
+  width: 100%;
+  top: -42em;
+  z-index: 12;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4em;
+}
+.section3 .tour-section .text-div .video-section{
+  width: 40%;
+  height: 21.5em;
+}
+.section3 .tour-section .text-div .video-section .deco .deco-1{
+  background: #198eee;
+  border-radius: 1em;
+  height: 8em;
+  width: 8em;
+  margin-top: -1em;
+  margin-left: -0.5em;
+}
+.section3 .tour-section .text-div .video-section .deco .deco-sub{
+  align-items: flex-end;
+}
+.section3 .tour-section .text-div .video-section .deco .deco-sub .deco-2{
+  position: relative;
+  background: #F48C06;
+  border-radius: 5em;
+  top: -3em;
+  right: -10em;
+  height: 5em;
+  width: 5em;
+  z-index: 2;
+}
+.section3 .tour-section .text-div .video-section .deco .deco-sub .deco-3{
+  background: #F48C06;
+  border-radius: 1em;
+  height: 10em;
+  width: 10em;
+  margin-top: 9em;
+  margin-bottom: -4em;
+  margin-right: -9em;
+}
+.section3 .tour-section .text-div .video-section .video-sub{
+  position: relative;
+  height: fit-content;
+  width: fit-content;
+  border-radius: 0.7em;
+  top: -21.3em;
+  bottom: 0;
+  left: 10px;
+}
+.section3 .tour-section .text-div .video-section .video-sub img{
+  width: 36em;
+  height: 24em;
+  border-radius: 1em;
+}
+.section3 .tour-section .text-div .video-section .video-sub .play-btn{
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  background: #FFFFFF;
+  border-radius: 50%;
+  width: 6em;
+  height: 6em;
+  top: 9em;
+  bottom: 0;
+  left: 15em;
+  opacity: 60%;
+  cursor: pointer;
+}
+.section3 .tour-section .text-div .video-section .video-sub .play-btn button{
+  border: none;
+  outline: none;
+}
+.section3 .tour-section .text-div .text-section{
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  width: 635px;
+  padding: 15px;
+  top: 45px;
+  gap: 20px;
+  left: 2em;
+}
+.section3 .tour-section .text-div .text-section .sub-text h2{
+  font-size: 48px;
+  letter-spacing: 1px;
+  color: #2F327D;
+  font-weight: 700;
+  line-height: 56.4px;
+}
+.section3 .tour-section .text-div .text-section .inner-sub p{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27.7px;
+  justify-content: left;
+}
+
+/*
+  *
+    Section 4
+  *
+*/
+
+.section4 .slider-section{
+  padding: 5em 0px;
+  overflow: hidden !important;
+}
+.section4 .slider-section .slider-heading{
+  margin-bottom: 15px;
+}
+.section4 .slider-section .slider-heading div{
+  text-align: center;
+}
+.section4 .slider-section .slider-heading div h3{
+  font-size: 3em;
+  color: #2F327D;
+  font-weight: 700;
+  line-height: 2;
+}
+.section4 .slider-section .slider .slick-boss .slick-list .slick-track .slick-slide{
+  margin: 0 10px !important;
+  width: 640px !important;
+  height: 440px;
+}
+.section4 .slider-section .slider{
+  height: 420px;
+  overflow: hidden !important;
+}
+.section4 .slider-section .slider .slick-boss .slick-dots{
+  bottom: 495px !important;
+}
+.section4 .slider-section .slider .slick-boss .slick-dots .slick-active button::before{
+  color: #2F327D !important;
+  opacity: 100% !important;
+}
+.section4 .slider-section .slider .slick-boss .slick-dots li{
+  width: 12px !important;
+}
+.section4 .slider-section .slider .slick-boss .slick-dots li button::before{
+  color: #F48C06 !important;
+  opacity: 100%;
+  font-size: 8px !important;
+}
+.section4 .slider-section .slider .slick-boss .slick-list .slick-track .slick-current .slider-images{
+  height: 336px;
+  box-shadow: 4px 4px 4px transparent, -4px -4px 4px transparent;
+}
+.section4 .slider-section .slider-images{
+  background: linear-gradient(0deg, #F8F7FA 100%, #FAF8FB 100%, #FAFAFC 100%, #FAF8FB 100%, #F8F6F9 100%, #F2F0F1 100%, #EBE9EA 100%);
+  height: 300px;
+  max-width: 650px !important;
+  border-radius: 24px;
+  margin-left: 14px;
+  overflow: hidden;
+}
+.section4 .slider-section .slider-images div svg{
+  height: 400px;
+}
+.section4 .slider-section .slider-images div svg .boss{
+  stroke: #F48C06;
+  stroke-width: 2px;
+  fill: none;
+}
+.section4 .slider-section .slider-images div .content{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: -400px;
+  height: 375.25px;
+  border-radius: 24px;
+}
+.section4 .slider-section .slider-images div .content .text-sec{
+  width: 45%;
+  position: relative;
+  right: -72px;
+}
+.section4 .slider-section .slider-images div .content .text-sec .inner-text p{
+  margin: 0 !important;
+}
+.section4 .slider-section .slider-images div .content .img-text-sect{
+  position: relative;
+  align-items: center;
+  width: fit-content;
+  margin-top: -2px;
+  left: -44px;
+}
+.section4 .slider-section .slider-images div .content .img-text-sect .text{
+  left: -119px;
+  gap: 4px;
+  text-align: center;
+}
+.section4 .slider-section .slider-images div .content .img-text-sect .text h3{
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+  width: 155px;
+  color: #2F327D;
+}
+.section4 .slider-section .slider-images div .content .img-text-sect .text p{
+  margin: 0;
+  font-size: 13px;
+  font-weight: 500;
+  color: #696984;
+  width: 155px !important;
+}
+
+/*
+  *
+    Section 5
+  *
+*/
+
+.section5{
+  background: #FFFFFF;
+}
+.section5 .upd-sec div{
+  align-items: center;
+}
+.section5 .upd-sec div .text-sec-5 .inner-text h2{
+  color: #2F327D;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 2;
+}
+.section5 .upd-sec div .news-sec-holder .inner-news-sec div .news1{
+  width: 500px;
+}
+.section5 .upd-sec div .news-sec-holder .inner-news-sec div .news1 .news1-sec .sub-head{
+  padding: 4px 15px;
+  background: #FFF2E1;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 30px;
+  margin-left: 10px;
+}
+.section5 .upd-sec div .news-sec-holder .inner-news-sec div .news1 .news1-sec .sub-head h5{
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #252641;
+  line-height: 25px;
+}
+.section5 .upd-sec div .news-sec-holder .inner-news-sec div .news1 .news1-sec .head h3{
+  margin: 0;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 500;
+  color: #2F327D;
+}
+.section5 .upd-sec div .news-sec-holder .inner-news-sec div .news1 .news1-sec .par p{
+  margin: 0;
+  font-size: 13px;
+  font-weight: 500;
+  color: #696984;
+}
+.section5 .upd-sec div .news-sec-holder .inner-news-sec div .news1 .news1-sec .btn{
+  width: 100%;
+  text-align: left;
+  outline: none;
+  border: none;
+}
+.section5 .upd-sec div .news-sec-holder .inner-news-sec div .news1 .news1-sec .btn a{
+  font-size: 16px;
+  font-weight: 500;
+  color: #373CB7;
+}
+.section5 .upd-sec div .news-sec-holder .inner-news-sec div .news2{
+  width: 500px;
+}
+.section5 .upd-sec div .news-sec-holder .inner-news-sec div .news2 .news2-sec .sub-head{
+  padding: 4px 15px;
+  background: #FFF2E1;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 30px;
+  margin-left: 10px;
+}
+.section5 .upd-sec div .news-sec-holder .inner-news-sec div .news2 .news2-sec .sub-head h5{
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #252641;
+  line-height: 25px;
+}
+.section5 .upd-sec div .news-sec-holder .inner-news-sec div .news2 .news2-sec .head h3{
+  margin: 0;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 500;
+  color: #2F327D;
+}
+.section5 .upd-sec div .news-sec-holder .inner-news-sec div .news2 .news2-sec .par p{
+  margin: 0;
+  font-size: 13px;
+  font-weight: 500;
+  color: #696984;
+}
+.section5 .upd-sec div .news-sec-holder .inner-news-sec div .news2 .news2-sec .btn{
+  width: 100%;
+  text-align: left;
+  outline: none;
+  border: none;
+}
+.section5 .upd-sec div .news-sec-holder .inner-news-sec div .news2 .news2-sec .btn a{
+  font-size: 16px;
+  font-weight: 500;
+  color: #373CB7;
+}
+.section5 .upd-sec div .news-sec-holder .inner-news-sec div .news3{
+  width: 500px;
+}
+.section5 .upd-sec div .news-sec-holder .inner-news-sec div .news3 .news3-sec .sub-head{
+  padding: 4px 15px;
+  background: #FFF2E1;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 30px;
+  margin-left: 10px;
+}
+.section5 .upd-sec div .news-sec-holder .inner-news-sec div .news3 .news3-sec .sub-head h5{
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #252641;
+  line-height: 25px;
+}
+.section5 .upd-sec div .news-sec-holder .inner-news-sec div .news3 .news3-sec .head h3{
+  margin: 0;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 500;
+  color: #2F327D;
+}
+.section5 .upd-sec div .news-sec-holder .inner-news-sec div .news3 .news3-sec .par p{
+  margin: 0;
+  font-size: 13px;
+  font-weight: 500;
+  color: #696984;
+}
+.section5 .upd-sec div .news-sec-holder .inner-news-sec div .news3 .news3-sec .btn{
+  width: 100%;
+  text-align: left;
+  outline: none;
+  border: none;
+}
+.section5 .upd-sec div .news-sec-holder .inner-news-sec div .news3 .news3-sec .btn a{
+  font-size: 16px;
+  font-weight: 500;
+  color: #373CB7;
+}
+.section5 .upd-sec div .news-btn-holder .inner-btn button{
+  background: #2F327D;
+  padding: 20px 64px 20px 64px;
+  font-size: 24px;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 12px;
+  font-weight: 600;
+}
+
+/*
+  *
+    Section 6
+  *
+*/
+
+.section6 .contact-section{
+  overflow: hidden;
+  height: 30em;
+  background: #FFFAF3;
+  width: 100%;
+}
+.section6 .contact-section .circle-div{
+  width: inherit;
+  height: inherit;
+}
+.section6 .contact-section .circle-div .first-circle{
+  background: #F48C06;
+  height: 12em;
+  width: 12em;
+  opacity: 20%;
+  border-radius: 50%;
+  margin: -4em 0 0 -3em;
+}
+.section6 .contact-section .circle-div .second-circle{
+  background: #F48C06;
+  height: 12em;
+  width: 12em;
+  opacity: 20%;
+  border-radius: 50%;
+  margin: 18em -3em 0 0;
+}
+.section6 .contact-section .text-div{
+  position: relative;
+  height: 42em;
+  width: 100%;
+  top: -39em;
+  z-index: 12;
+  align-items: center;
+  justify-content: left;
+  padding: 0 4em;
+}
+.section6 .contact-section .text-div .image-section{
+  width: 40%;
+  height: 21.5em;
+}
+.section6 .contact-section .text-div .image-section .image-sub{
+  position: relative;
+  height: fit-content;
+  width: fit-content;
+  border-radius: 0.7em;
+  bottom: 0;
+  left: -2em;
+}
+.section6 .contact-section .text-div .image-section .image-sub img{
+  width: 36em;
+  height: 26em;
+  border-radius: 1em;
+}
+.section6 .contact-section .text-div .text-section{
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  width: 635px;
+  padding: 15px;
+  top: 45px;
+  gap: 10px;
+  left: -1em;
+}
+.section6 .contact-section .text-div .text-section .sub-text h2{
+  font-size: 48px;
+  letter-spacing: 1px;
+  color: #2F327D;
+  font-weight: 700;
+  line-height: 56.4px;
+}
+.section6 .contact-section .text-div .text-section .inner-sub p{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27.7px;
+  justify-content: left;
+}
+.section6 .contact-section .text-div .text-section .txt-button button{
+  height: 50px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27.7px;
+  padding: 0 20px;
+  color: #FFFFFF;
+  background-color: #F48C06;
+  border: none;
+  border-radius: 12px;
+}
